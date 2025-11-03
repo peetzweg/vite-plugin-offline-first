@@ -1,23 +1,14 @@
-# Offline-First Example App
+# Example App
 
-A sample application demonstrating the `vite-plugin-offline-first` plugin.
+Example application demonstrating `vite-plugin-offline-first`.
 
-## Features
-
-- ✅ Vite + TypeScript + Vanilla JS
-- ✅ Offline-first PWA support
-- ✅ Automatic Service Worker generation
-- ✅ Network-first caching strategy
-- ✅ Cache busting on every build
-
-## Development
+## Run
 
 ```bash
-pnpm install
 pnpm dev
 ```
 
-The app will be available at `http://localhost:5174`
+Opens at `http://localhost:5174`
 
 ## Build
 
@@ -26,23 +17,12 @@ pnpm build
 pnpm preview
 ```
 
-## Testing Offline
+## Test Offline
 
-1. Open DevTools (F12)
-2. Go to **Application** tab
-3. Check **Service Workers** (you should see it registered)
-4. Go to **Network** tab
-5. Check **Offline** checkbox
-6. Refresh the page
-7. Your app still works! 🚀
+1. Open DevTools → Network → Offline
+2. Refresh page
+3. App continues working from cache
 
-## How It Works
+## Plugin Usage
 
-The app uses the `vite-plugin-offline-first` plugin which:
-
-- Automatically generates a Service Worker
-- Implements network-first caching (fresh when online, cached offline)
-- Handles cache busting with unique hash per build
-- Auto-registers service worker in HTML
-
-See the root `README_PLUGIN.md` for full plugin documentation.
+See [plugin README](../../packages/vite-plugin-offline-first/README.md)
