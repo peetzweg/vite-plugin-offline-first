@@ -3,15 +3,7 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
 
-if ("serviceWorker" in navigator) {
-  console.log("Service worker is supported");
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("/sw.js")
-      .then((reg) => console.log("SW registered:", reg))
-      .catch((err) => console.error("SW registration failed:", err));
-  });
-}
+// Service Worker registration is now handled by the vite-plugin-offline-first plugin!
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-offline-first",
+  "version": "0.1.0",
+  "description": "A Vite plugin for offline-first applications with smart caching and cache busting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "vite",
+    "offline-first",
+    "service-worker",
+    "pwa",
+    "cache-busting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}
