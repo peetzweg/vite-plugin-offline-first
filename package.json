@@ -1,5 +1,5 @@
 {
-  "name": "offline-first-monorepo",
+  "name": "vite-plugin-offline-first-monorepo",
   "private": true,
   "version": "0.1.0",
   "description": "Monorepo for offline-first Vite plugin and example app",
