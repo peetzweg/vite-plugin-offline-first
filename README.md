@@ -1,4 +1,4 @@
-# offline-first
+# vite-plugin-offline-first
 
 A pnpm monorepo containing the `vite-plugin-offline-first` plugin and an example application.
 
